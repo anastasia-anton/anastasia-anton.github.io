@@ -9,7 +9,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Анастасия &amp; Антон · 21.11.2026">
 <meta property="og:description" content="Приглашение на свадьбу. Краснодар, 21 ноября 2026.">
-
+<meta property="og:image" content="https://anastasia-anton.github.io/og-cover.jpg">
+<meta property="og:url" content="https://anastasia-anton.github.io/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Crect%20width%3D%2248%22%20height%3D%2248%22%20rx%3D%2210%22%20fill%3D%22%234B0915%22%2F%3E%3Cpath%20d%3D%22M24%2037%20C17%2031%2011%2027%2011%2020%20C11%2015.5%2014.5%2012%2018.6%2012%20C21%2012%2023%2013.3%2024%2015.3%20C25%2013.3%2027%2012%2029.4%2012%20C33.5%2012%2037%2015.5%2037%2020%20C37%2027%2031%2031%2024%2037%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23E3B98A%22%20stroke-width%3D%222.2%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,12 +27,12 @@ a{color:#1B1C1E}a:hover{color:#6B1626}
 .cue-dot{top:30%}
 @keyframes fx-cue{0%{top:-45%}65%,100%{top:100%}}
 .bg-prog,.bg-wish{background-color:#070708;background-repeat:no-repeat,no-repeat;background-position:right top,center}
-.bg-prog{background-image:url(assets/velvet-bq-prog-m.webp),url(assets/velvet-fill-m.webp);background-size:min(78%,380px) auto,cover}
-.bg-wish{background-image:url(assets/velvet-bq-wish-m.webp),url(assets/velvet-fill-m.webp);background-size:min(50%,240px) auto,cover}
+.bg-prog{background-image:url(velvet-bq-prog-m.webp),url(velvet-fill-m.webp);background-size:min(78%,380px) auto,cover}
+.bg-wish{background-image:url(velvet-bq-wish-m.webp),url(velvet-fill-m.webp);background-size:min(50%,240px) auto,cover}
 @container (max-width:899.98px){.bg-prog{padding-top:calc(min(78cqw,380px) * 1.26)!important}.bg-wish{padding-top:calc(min(50cqw,240px) * 0.86)!important}}
-@container (min-width:900px){.bg-prog,.bg-wish{background-image:linear-gradient(90deg,rgba(4,4,5,.38) 0%,rgba(4,4,5,.22) 55%,rgba(4,4,5,0) 76%),url(assets/velvet-desk.webp);background-size:auto,cover;background-position:0 0,right 22%}.bg-prog{padding-right:max(72px,25cqw)!important}.bg-wish{padding-right:max(72px,26cqw)!important}}
-.garnet{background-color:#4B0915;background-image:url(assets/grain.webp),radial-gradient(115% 80% at 50% -8%,rgba(172,20,44,.62) 0%,rgba(172,20,44,.18) 38%,rgba(172,20,44,0) 64%),radial-gradient(100% 70% at 50% 118%,rgba(14,1,4,.62) 0%,rgba(14,1,4,0) 70%),radial-gradient(55% 65% at -6% 55%,rgba(20,2,6,.45),rgba(20,2,6,0) 70%),radial-gradient(55% 65% at 106% 55%,rgba(20,2,6,.45),rgba(20,2,6,0) 70%)}
-.tx-concrete{background-image:url(assets/concrete-texture-soft.webp);background-size:512px 512px}
+@container (min-width:900px){.bg-prog,.bg-wish{background-image:linear-gradient(90deg,rgba(4,4,5,.38) 0%,rgba(4,4,5,.22) 55%,rgba(4,4,5,0) 76%),url(velvet-desk.webp);background-size:auto,cover;background-position:0 0,right 22%}.bg-prog{padding-right:max(72px,25cqw)!important}.bg-wish{padding-right:max(72px,26cqw)!important}}
+.garnet{background-color:#4B0915;background-image:url(grain.webp),radial-gradient(115% 80% at 50% -8%,rgba(172,20,44,.62) 0%,rgba(172,20,44,.18) 38%,rgba(172,20,44,0) 64%),radial-gradient(100% 70% at 50% 118%,rgba(14,1,4,.62) 0%,rgba(14,1,4,0) 70%),radial-gradient(55% 65% at -6% 55%,rgba(20,2,6,.45),rgba(20,2,6,0) 70%),radial-gradient(55% 65% at 106% 55%,rgba(20,2,6,.45),rgba(20,2,6,0) 70%)}
+.tx-concrete{background-image:url(concrete-texture-soft.webp);background-size:512px 512px}
 .fx-leaf{display:none}
 .fx-num{transition:background-color .25s ease}
 .fx-day:hover .fx-num{background-color:rgba(107,22,38,.09)}
@@ -39,7 +41,7 @@ a{color:#1B1C1E}a:hover{color:#6B1626}
 .fx-btn:hover{transform:translateY(-2px)}
 .fx-btn:active{transform:translateY(0)}
 .silk{background-size:cover;background-position:center;background-repeat:no-repeat}
-.silk-1{background-image:url(assets/swatch-burgundy.webp)}.silk-2{background-image:url(assets/swatch-marsala.webp)}.silk-3{background-image:url(assets/swatch-chocolate.webp)}.silk-4{background-image:url(assets/swatch-emerald.webp)}.silk-5{background-image:url(assets/swatch-graphite.webp)}.silk-6{background-image:url(assets/swatch-black.webp)}
+.silk-1{background-image:url(swatch-burgundy.webp)}.silk-2{background-image:url(swatch-marsala.webp)}.silk-3{background-image:url(swatch-chocolate.webp)}.silk-4{background-image:url(swatch-emerald.webp)}.silk-5{background-image:url(swatch-graphite.webp)}.silk-6{background-image:url(swatch-black.webp)}
 .pg-list{--pgi:clamp(42px,8svh,60px);--pgp:clamp(6px,1.9svh,16px)}
 .pg-row{display:grid;grid-template-columns:clamp(96px,11cqw,130px) var(--pgi) minmax(0,1fr);grid-template-areas:"t i x";align-items:start;column-gap:clamp(16px,2.8cqw,32px);padding:var(--pgp) 0}
 .pg-time{grid-area:t;margin-top:calc((var(--pgi) - 1em) / 2)}.pg-ic{grid-area:i;width:var(--pgi);height:var(--pgi);display:block}.pg-txt{grid-area:x;margin-top:max(0px, calc((var(--pgi) - 57px) / 2))}
@@ -190,7 +192,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <section id="top" class="fx-page fx-p1" style="scroll-snap-align: start">
 <div class="fx-sheet" style="position: relative; overflow: hidden; min-height: min(100svh, 940px); display: flex; flex-direction: column; background: #1B1C1E; color: #F3F1EE">
-<img class="fx-zoom" src="assets/hall-interior.webp" alt="Банкетный зал Avrora Garden" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%">
+<img class="fx-zoom" src="hall-interior.webp" alt="Банкетный зал Avrora Garden" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%">
 <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(18, 19, 20, 0.7)"></div>
 <div style="position: relative; flex: 1 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 24px; padding: clamp(28px, 4cqw, 48px) clamp(20px, 5cqw, 72px) clamp(40px, 4.4cqw, 56px); text-align: center">
 <span class="fx-i" style="font-size: 13px; font-weight: 500; letter-spacing: 0.32em; text-transform: uppercase; color: #D9D5CE; padding-left: 0.32em">Приглашение на свадьбу</span>
@@ -675,7 +677,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 </div>
 </div>
 <div class="fx-o fx-doors" style="height: 364px; overflow: hidden; background: #26272A">
-<img class="fx-s fx-own" src="assets/hall-entrance.webp" alt="Вход в Avrora Garden вечером" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 55% 50%">
+<img class="fx-s fx-own" src="hall-entrance.webp" alt="Вход в Avrora Garden вечером" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 55% 50%">
 </div>
 </article>
 </div>
@@ -795,7 +797,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w01.webp" alt="Атлас с перекрёстом, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w01.webp" alt="Атлас с перекрёстом, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Атлас с перекрёстом</span>
@@ -805,7 +807,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w02.webp" alt="Атлас с шарфом, зелёный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w02.webp" alt="Атлас с шарфом, зелёный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Атлас с шарфом</span>
@@ -815,7 +817,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w03.webp" alt="Атлас с воротником, изумруд" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w03.webp" alt="Атлас с воротником, изумруд" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Атлас с воротником</span>
@@ -825,7 +827,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w04.webp" alt="На одно плечо, графит" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w04.webp" alt="На одно плечо, графит" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">На одно плечо</span>
@@ -835,7 +837,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w05.webp" alt="Атлас на бретелях, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w05.webp" alt="Атлас на бретелях, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Атлас на бретелях</span>
@@ -845,7 +847,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w06.webp" alt="Бандо с шарфом, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w06.webp" alt="Бандо с шарфом, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Бандо с шарфом</span>
@@ -855,7 +857,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w07.webp" alt="Атлас с шарфом, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w07.webp" alt="Атлас с шарфом, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Атлас с шарфом</span>
@@ -865,7 +867,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w08.webp" alt="Асимметрия с чокером, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w08.webp" alt="Асимметрия с чокером, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Асимметрия с чокером</span>
@@ -875,7 +877,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w09.webp" alt="Платье-халтер, чёрный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w09.webp" alt="Платье-халтер, чёрный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Платье-халтер</span>
@@ -885,7 +887,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/women-w10.webp" alt="Топ и атласная юбка, чёрный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="women-w10.webp" alt="Топ и атласная юбка, чёрный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Топ и атласная юбка</span>
@@ -907,7 +909,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m01.webp" alt="Рубашка и брюки, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m01.webp" alt="Рубашка и брюки, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Рубашка и брюки</span>
@@ -917,7 +919,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m02.webp" alt="Рубашка и чиносы, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m02.webp" alt="Рубашка и чиносы, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Рубашка и чиносы</span>
@@ -927,7 +929,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m03.webp" alt="Рубашка и брюки, графит" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m03.webp" alt="Рубашка и брюки, графит" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Рубашка и брюки</span>
@@ -937,7 +939,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m04.webp" alt="Пиджак и рубашка, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m04.webp" alt="Пиджак и рубашка, бургунди" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Пиджак и рубашка</span>
@@ -947,7 +949,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m05.webp" alt="Двубортный костюм, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m05.webp" alt="Двубортный костюм, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Двубортный костюм</span>
@@ -957,7 +959,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m06.webp" alt="Костюм и галстук, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m06.webp" alt="Костюм и галстук, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Костюм и галстук</span>
@@ -967,7 +969,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m07.webp" alt="Костюм и рубашка, зелёный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m07.webp" alt="Костюм и рубашка, зелёный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Костюм и рубашка</span>
@@ -977,7 +979,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m08.webp" alt="Двубортный костюм, зелёный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m08.webp" alt="Двубортный костюм, зелёный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Двубортный костюм</span>
@@ -987,7 +989,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m09.webp" alt="Костюм в полоску, графит" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m09.webp" alt="Костюм в полоску, графит" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Костюм в полоску</span>
@@ -997,7 +999,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m10.webp" alt="Галстук в тон платью, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m10.webp" alt="Галстук в тон платью, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Галстук в тон платью</span>
@@ -1007,7 +1009,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <figure class="lk-item" style="margin: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
 <div style="position: relative; aspect-ratio: 2 / 3; overflow: hidden; background: #E9E4DD">
-<img class="lk-img" src="assets/men-m11.webp" alt="Пиджак и чиносы, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<img class="lk-img" src="men-m11.webp" alt="Пиджак и чиносы, шоколадный" loading="lazy" draggable="false" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <figcaption style="display: flex; flex-direction: column; gap: 4px">
 <span class="lk-name" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.15; color: #1B1C1E">Пиджак и чиносы</span>
@@ -1033,7 +1035,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 <figure class="fx-hands" style="position: relative; flex: 1 1 320px; max-width: min(460px, calc((100svh - 150px) * 0.958)); min-width: 0; margin: 0 14px 14px 0">
 <span aria-hidden="true" style="position: absolute; inset: 14px -14px -14px 14px; border: 1px solid rgba(192, 138, 91, 0.55)"></span>
 <div style="position: relative; overflow: hidden; aspect-ratio: 23 / 24; background: #111214">
-<img class="fx-hands-img" src="assets/hands.webp" alt="Руки Анастасии и Антона" style="display: block; width: 100%; height: 100%; object-fit: cover">
+<img class="fx-hands-img" src="hands.webp" alt="Руки Анастасии и Антона" style="display: block; width: 100%; height: 100%; object-fit: cover">
 </div>
 </figure>
 <div style="flex: 1 1 380px; max-width: 520px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: clamp(16px, 2.4svh, 24px)">
@@ -1163,7 +1165,7 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 
 <section id="finale" class="fx-page fx-p8" style="scroll-snap-align: start">
 <div class="fx-sheet" style="position: relative; overflow: hidden; min-height: min(100svh, 940px); display: flex; flex-direction: column; border-radius: 28px 28px 0 0; background: #1B1C1E; color: #F3F1EE">
-<img src="assets/hall-interior.webp" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%">
+<img src="hall-interior.webp" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%">
 <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(18, 19, 20, 0.82)"></div>
 <div style="position: relative; flex: 1 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(20px, 3cqw, 34px); padding: clamp(56px, 7cqw, 84px) clamp(20px, 5cqw, 72px); text-align: center">
 <span class="fx-a" style="font-size: 13px; font-weight: 500; letter-spacing: 0.32em; text-transform: uppercase; color: #D9D5CE; padding-left: 0.32em">До свадьбы осталось</span>
@@ -1185,10 +1187,10 @@ html.fx-js .fx-row.fx-late .fx-seg{animation-delay:.3s!important}
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px">
 <span style="position: relative; display: inline-block; font-family: 'Cormorant Garamond', serif; font-weight: 300; font-size: clamp(54px, 9cqw, 104px); line-height: 1; font-variant-numeric: lining-nums tabular-nums">
-<span data-cdo="minutes" class="" aria-hidden="true" style="position: absolute; left: 0; right: 0; top: 0; opacity: 0">46</span>
-<span data-cdi="minutes" class="" style="display: inline-block">46</span>
+<span data-cdo="minutes" class="" aria-hidden="true" style="position: absolute; left: 0; right: 0; top: 0; opacity: 0">31</span>
+<span data-cdi="minutes" class="" style="display: inline-block">31</span>
 </span>
-<span style="font-size: 13px; font-weight: 500; letter-spacing: 0.26em; text-transform: uppercase; color: #D9D5CE; padding-left: 0.26em"><b data-cdl="minutes" style="font-weight: inherit">минут</b></span>
+<span style="font-size: 13px; font-weight: 500; letter-spacing: 0.26em; text-transform: uppercase; color: #D9D5CE; padding-left: 0.26em"><b data-cdl="minutes" style="font-weight: inherit">минута</b></span>
 </div>
 </div>
 </div>
